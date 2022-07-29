@@ -11,7 +11,7 @@
 
 namespace Symfony\Cmf\Bundle\CoreBundle\Templating\Helper;
 
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Bundle\PHPCRBundle\ManagerRegistry;
 use Doctrine\ODM\PHPCR\DocumentManager;
 use Doctrine\ODM\PHPCR\Translation\MissingTranslationException;
 use PHPCR\Util\PathHelper;
